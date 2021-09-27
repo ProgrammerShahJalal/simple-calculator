@@ -6,7 +6,7 @@ let calculate = (number) => {
 
 let Result = () => {
     try {
-        result.value = eval(result.value);
+        result.value = eval(result.value).toFixed(4);
     }
     catch (err) {
         alert("Enter the valid Input");
